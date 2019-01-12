@@ -21,6 +21,13 @@ const schema = {
         no_of_doctors : Number,
         no_of_private_wards : Number,
         no_of_beds_eco_weak: Number,
+    })),
+
+    users:mongoose.model('users',new mongoose({
+        name:String,
+        location:String,
+        phone_no:Number,
+        email:String
     }))
 }
 
