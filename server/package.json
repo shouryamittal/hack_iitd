@@ -1,0 +1,17 @@
+{
+  "name": "hack_it",
+  "version": "1.0.0",
+  "description": "Hackathon @ IITD",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hack_it_team",
+  "license": "ISC"
+}
