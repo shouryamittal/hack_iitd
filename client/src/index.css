@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.one {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.two a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.two a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.two a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+/*BUTTON*/
+.bloodbank {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: red;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 5px auto;
+  border-radius: 20px;
+  box-shadow: 0 6px red
+}
+
+.bloodbank:hover {
+  box-shadow: 0 4px red;
+  top: 2px;
+}
+
+.bloodbank:active {
+/*   box-shadow: 0 0 #efa424; */
+  box-shadow: none;
+  top: 6px;
+}
+.navbar{
+  margin:0;
+}
