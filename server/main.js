@@ -24,8 +24,8 @@ app.get('/', function(req, res){
 })
 
 // === setup paths for different routes === //
-//app.use(end_user_and_donor);
-//app.use(hospital_end);
+app.use(end_user_and_donor);
+app.use(hospital_end);
 
 app.listen(8080, function(){
     console.log("Backend Server is running and up on port 8080")
